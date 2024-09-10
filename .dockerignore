@@ -1,0 +1,36 @@
+# Ignore all reasonable files to ignore
+*.pdf
+*.txt
+*.csv
+*.xlsx
+*.xls
+*.db
+*.sqlite
+*.sqlite3
+*.log
+*.tmp
+*.pyc
+*.pyo
+*.pyd
+*.dll
+*.so
+*.dylib
+
+# Ignore Mac specific files
+.DS_Store
+
+# Ignore environment files and secrets
+.venv/
+env/
+venv/
+env.bak/
+venv.bak/
+.env
+.env.bak
+
+# Ignore pycache
+__pycache__/
+
+# Ignore specific files
+.gitignore
+.git
